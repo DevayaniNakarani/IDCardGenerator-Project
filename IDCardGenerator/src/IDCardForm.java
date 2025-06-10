@@ -31,7 +31,7 @@ public class IDCardForm extends JFrame {
                 imagePath = file.getAbsolutePath();
                 imageLabel.setText(file.getName());
             }
-        }
+        });
 
         JButton generateButton = new JButton("Generate ID Card");
         generateButton.addActionListener(e -> {
